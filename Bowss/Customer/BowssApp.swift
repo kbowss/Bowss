@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+
+
+
 @main
 struct BowssApp: App {
     var body: some Scene {
         WindowGroup {
             SellerTab1()
+                 }
+       
+          }
         }
-    }
-}
+    
+
