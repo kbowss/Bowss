@@ -16,20 +16,28 @@ class BusinessInformation: ObservableObject {
     @State var monthlyRevenue = ""
     @State var price = ""
     @State var allowNegotiation = Bool.self
-    
-    
+    @State var toggleNegotiation:Bool = false
+    @State var toggleBid = false
 }
 
 
 struct SellBusiness: View {
    @StateObject var businessLayout = BusinessInformation()
+    
     var body: some View {
         
            
         
         VStack {
-        Text("Sell A Business")
-            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            
+            HStack {
+                Text("Sell A Business")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    
+                    .padding(/*@START_MENU_TOKEN@*/.all, 30.0/*@END_MENU_TOKEN@*/)
+                    
+                Spacer()
+            }
             
              
             Form {
@@ -75,22 +83,32 @@ struct SellBusiness: View {
                     
                     
                 }
+                
                 Section(header: Text("Start Selling !")) {
                     TextField("Price", text: $businessLayout.price)
                             
-                    
-                    Text("Allow Negotiation:             Yes/No")
-                        .font(.title3)
-                    
-                    // IF YES
-                    Text("Set A Bid:      Yes/No")
-                        .bold()
-                        .padding(.leading, 50.0)
-                        .font(.title2)
+                    Toggle(isOn: $businessLayout.toggleNegotiation, label: {
+                        Text("Allow Negotiation")
+                            .bold()
+                    })
                     
                     
-                    // SHOW if seta bid is true - show this {
-                    Text(" Starting Price: £__    Time Limit: 30d3hr")
+                    Toggle(isOn: $businessLayout.toggleBid, label: {
+                        Text("Set A Bid")
+                            .bold()
+                    })
+                    
+                    if businessLayout.toggleBid {
+                        Text("Starting Price: £Time Limit: 30d3hr ")
+                    }
+                    else {
+                    Text("Nothing")
+                    }
+                    
+                    
+                    
+                    
+                   
                     
                     
                     

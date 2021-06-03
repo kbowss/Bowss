@@ -57,7 +57,7 @@ struct Topbar2 : View {
         }) {
         
             Text("Influencer")
-                .bold()
+                .fontWeight(.medium)
                 .padding(.leading, 7.0)
                 .padding(3.0)
             .padding(.trailing,5)
@@ -74,8 +74,9 @@ struct Topbar2 : View {
             
         }) {
         
-        Text("Sell Products")
-            .bold()
+            Text("Sell Products")
+                .fontWeight(.medium)
+            
             .padding(.all, 5.0)
             .background(self.selected == 1 ? Color.red : Color.clear)
             .clipShape(Capsule())
@@ -90,7 +91,7 @@ struct Topbar2 : View {
         }) {
         
             Text("Sell A Business")
-            .bold()
+                .fontWeight(.medium)
                 .padding(3.0)
             .background(self.selected == 2 ? Color.red : Color.clear)
             .clipShape(Capsule())

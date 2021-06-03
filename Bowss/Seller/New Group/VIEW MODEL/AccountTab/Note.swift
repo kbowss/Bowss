@@ -27,6 +27,7 @@ import SwiftUI
         }
 
         struct ProfileTopSectPUB1: View {
+            @State var settingsSheet = false
             var body: some View {
                 HStack {
                     ProfileImageUS1()
@@ -53,15 +54,14 @@ import SwiftUI
                     .padding(.top, 3.0)
                     
                    
-                    
-            Text("Settings")
-            .font(.title)
+                    Button(action: {self.settingsSheet.toggle()}) {
+                        Text("Settings")
+                    } .font(.title)
             .foregroundColor(Color.red)
-            .bold()
-            .padding(/*@START_MENU_TOKEN@*/.all, 14.0/*@END_MENU_TOKEN@*/)
+            .sheet(isPresented: $settingsSheet, content: {
+                            SellerSettings()}
                     
-                    
-                        
+                        )
                 }
                     
                     

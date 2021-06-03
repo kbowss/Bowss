@@ -8,15 +8,34 @@
 import SwiftUI
 
 struct CreateSellBusinesSB: View {
+    @State var sellBusinessSheet = false
     var body: some View {
-        // goes to BUSINESS LAYOUT PAGE
+      
         
-        Text("Sell A Business")
-            .bold()
-            .padding()
-            .background(Color.red)
-            .font(.title)
-            .cornerRadius(20)
+        
+            VStack {
+                             
+                        
+                Button(action: {self.sellBusinessSheet.toggle()}) {
+                    Text("Sell A Business")
+                        .fontWeight(.medium)
+                } .font(.title)
+                .foregroundColor(.black)
+                  .padding(.all, 16.0)
+                  .background(Color.red)
+                  .cornerRadius(18)
+                .sheet(isPresented: $sellBusinessSheet, content: {
+                        SellBusiness()}
+                        
+                        
+                )
+        
+        
+            }
+        
+        
+        
+        
     }
 }
 

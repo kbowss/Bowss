@@ -10,12 +10,14 @@ import SwiftUI
 struct CelebrityAccount: View {
     var body: some View {
        
-            Text(" Join The Influencer Army ")
+            Text(" Set Up Celebrity Account ")
+                .foregroundColor(.black)
                 .font(.title)
-                .bold()
+                .fontWeight(.medium)
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 .background(Color.red)
-                .cornerRadius(10)
-                .shadow(radius: 20)
+                .cornerRadius(30)
+                
             
             
 }

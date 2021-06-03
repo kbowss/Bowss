@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SellerTab1: View {
     var body: some View {
-        NavigationView{
+        NavigationView {
         VStack {
             
             Text("BOWSS")
@@ -43,7 +43,7 @@ struct SellerTab1: View {
             }
         }
         
-        }
+        } .navigationBarHidden(true)
     }
 struct BSchoice_Previews: PreviewProvider {
     static var previews: some View {

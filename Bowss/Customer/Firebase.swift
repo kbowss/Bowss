@@ -10,8 +10,8 @@ import Firebase
 
 
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+//@UIApplicationMain
+class AppDelegate1: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 

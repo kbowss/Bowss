@@ -21,7 +21,7 @@ struct AccountTabSeller: View {
                 
             }
         
-       // SellerSettings()
+   
         }
     }
 }
@@ -30,5 +30,6 @@ struct AccountTabSeller_Previews: PreviewProvider {
     static var previews: some View {
         AccountTabSeller()
             .preferredColorScheme(.dark)
+            
     }
 }

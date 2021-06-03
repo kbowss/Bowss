@@ -15,19 +15,20 @@
 		1C37FB4B265AD7B40001ED5D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB4A265AD7B40001ED5D /* Note.swift */; };
 		1C37FB4D265AE5D20001ED5D /* OBselleraccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB4C265AE5D20001ED5D /* OBselleraccount.swift */; };
 		1C37FB4F265AE5EA0001ED5D /* CelebrityAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB4E265AE5EA0001ED5D /* CelebrityAccount.swift */; };
-		1C37FB51265AE6190001ED5D /* RetailAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB50265AE6190001ED5D /* RetailAccount.swift */; };
+		1C37FB51265AE6190001ED5D /* FormButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB50265AE6190001ED5D /* FormButtons.swift */; };
 		1C37FB55265B15F90001ED5D /* NavigationBarSeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB54265B15F90001ED5D /* NavigationBarSeller.swift */; };
 		1C37FB57265B3B9E0001ED5D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB56265B3B9E0001ED5D /* LoginView.swift */; };
-		1C37FB5C265B5E970001ED5D /* SellBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB5B265B5E970001ED5D /* SellBusiness.swift */; };
+		1C37FB5C265B5E970001ED5D /* SellBusinessForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB5B265B5E970001ED5D /* SellBusinessForm.swift */; };
 		1C37FB60265C3D4A0001ED5D /* SellBusinessDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB5F265C3D4A0001ED5D /* SellBusinessDelay.swift */; };
 		1C37FB62265C43A10001ED5D /* EditableProductPageOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB61265C43A10001ED5D /* EditableProductPageOB.swift */; };
 		1C37FB64265C44840001ED5D /* EditableProductPageRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB63265C44840001ED5D /* EditableProductPageRS.swift */; };
 		1C37FB68265C9EA70001ED5D /* DailyBudgetRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB67265C9EA70001ED5D /* DailyBudgetRS.swift */; };
 		1C37FB6A265C9EC20001ED5D /* DailyBudgetSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB69265C9EC20001ED5D /* DailyBudgetSB.swift */; };
-		1C37FB6E265CA3F60001ED5D /* CreateAccountRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB6D265CA3F60001ED5D /* CreateAccountRS.swift */; };
 		1C37FB72265CA4B60001ED5D /* CreateSellBusinesSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB71265CA4B60001ED5D /* CreateSellBusinesSB.swift */; };
 		1C37FB74265CA54E0001ED5D /* DailyBrandBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB73265CA54E0001ED5D /* DailyBrandBudget.swift */; };
 		1C37FB7B265DE1A40001ED5D /* EditableProductPageC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C37FB7A265DE1A40001ED5D /* EditableProductPageC.swift */; };
+		1C416534266727EC004E7624 /* PinCodeForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C416533266727EC004E7624 /* PinCodeForm.swift */; };
+		1C4165362667439C004E7624 /* BowssSellerForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4165352667439C004E7624 /* BowssSellerForm.swift */; };
 		1C64BBB526502ADB00ADA6CA /* lazyGridDataB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64BBB426502ADB00ADA6CA /* lazyGridDataB.swift */; };
 		1C64BBB726502B1A00ADA6CA /* lazygrid2viewbug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64BBB626502B1A00ADA6CA /* lazygrid2viewbug.swift */; };
 		1C64BBB92650410600ADA6CA /* TopSectionProfileB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64BBB82650410600ADA6CA /* TopSectionProfileB.swift */; };
@@ -46,6 +47,8 @@
 		1C64BBEE2658B60600ADA6CA /* MiniCardsBB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64BBED2658B60600ADA6CA /* MiniCardsBB.swift */; };
 		1C64BBF32659D3B200ADA6CA /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C64BBF22659D3B200ADA6CA /* TabView.swift */; };
 		1C69DE2B266320B000C166C1 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69DE2A266320B000C166C1 /* Firebase.swift */; };
+		1C69DE2D26649EE300C166C1 /* SendRequestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69DE2C26649EE300C166C1 /* SendRequestForm.swift */; };
+		1C69DE2F2665BBD300C166C1 /* AddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69DE2E2665BBD300C166C1 /* AddProduct.swift */; };
 		1CC32E7F26454E1B00C54A47 /* BowssApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC32E7E26454E1B00C54A47 /* BowssApp.swift */; };
 		1CC32E8126454E1B00C54A47 /* TabViewS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC32E8026454E1B00C54A47 /* TabViewS.swift */; };
 		1CC32E8326454E1D00C54A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC32E8226454E1D00C54A47 /* Assets.xcassets */; };
@@ -79,19 +82,20 @@
 		1C37FB4A265AD7B40001ED5D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		1C37FB4C265AE5D20001ED5D /* OBselleraccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBselleraccount.swift; sourceTree = "<group>"; };
 		1C37FB4E265AE5EA0001ED5D /* CelebrityAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrityAccount.swift; sourceTree = "<group>"; };
-		1C37FB50265AE6190001ED5D /* RetailAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailAccount.swift; sourceTree = "<group>"; };
+		1C37FB50265AE6190001ED5D /* FormButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormButtons.swift; sourceTree = "<group>"; };
 		1C37FB54265B15F90001ED5D /* NavigationBarSeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarSeller.swift; sourceTree = "<group>"; };
 		1C37FB56265B3B9E0001ED5D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		1C37FB5B265B5E970001ED5D /* SellBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellBusiness.swift; sourceTree = "<group>"; };
+		1C37FB5B265B5E970001ED5D /* SellBusinessForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellBusinessForm.swift; sourceTree = "<group>"; };
 		1C37FB5F265C3D4A0001ED5D /* SellBusinessDelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellBusinessDelay.swift; sourceTree = "<group>"; };
 		1C37FB61265C43A10001ED5D /* EditableProductPageOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableProductPageOB.swift; sourceTree = "<group>"; };
 		1C37FB63265C44840001ED5D /* EditableProductPageRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableProductPageRS.swift; sourceTree = "<group>"; };
 		1C37FB67265C9EA70001ED5D /* DailyBudgetRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBudgetRS.swift; sourceTree = "<group>"; };
 		1C37FB69265C9EC20001ED5D /* DailyBudgetSB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBudgetSB.swift; sourceTree = "<group>"; };
-		1C37FB6D265CA3F60001ED5D /* CreateAccountRS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountRS.swift; sourceTree = "<group>"; };
 		1C37FB71265CA4B60001ED5D /* CreateSellBusinesSB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSellBusinesSB.swift; sourceTree = "<group>"; };
 		1C37FB73265CA54E0001ED5D /* DailyBrandBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBrandBudget.swift; sourceTree = "<group>"; };
 		1C37FB7A265DE1A40001ED5D /* EditableProductPageC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableProductPageC.swift; sourceTree = "<group>"; };
+		1C416533266727EC004E7624 /* PinCodeForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeForm.swift; sourceTree = "<group>"; };
+		1C4165352667439C004E7624 /* BowssSellerForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowssSellerForm.swift; sourceTree = "<group>"; };
 		1C64BBAF264E278500ADA6CA /* Bowss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bowss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C64BBB426502ADB00ADA6CA /* lazyGridDataB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyGridDataB.swift; sourceTree = "<group>"; };
 		1C64BBB626502B1A00ADA6CA /* lazygrid2viewbug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazygrid2viewbug.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 		1C64BBED2658B60600ADA6CA /* MiniCardsBB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniCardsBB.swift; sourceTree = "<group>"; };
 		1C64BBF22659D3B200ADA6CA /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		1C69DE2A266320B000C166C1 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		1C69DE2C26649EE300C166C1 /* SendRequestForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestForm.swift; sourceTree = "<group>"; };
+		1C69DE2E2665BBD300C166C1 /* AddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduct.swift; sourceTree = "<group>"; };
 		1CC32E7E26454E1B00C54A47 /* BowssApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowssApp.swift; sourceTree = "<group>"; };
 		1CC32E8026454E1B00C54A47 /* TabViewS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewS.swift; sourceTree = "<group>"; };
 		1CC32E8226454E1D00C54A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -212,8 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				1C37FB54265B15F90001ED5D /* NavigationBarSeller.swift */,
-				1C37FB5A265B5E3D0001ED5D /* Selling Businesses */,
 				1C37FB59265B5E2D0001ED5D /* Retail Seller */,
+				1C37FB5A265B5E3D0001ED5D /* Selling Businesses */,
 				1C37FB58265B5E200001ED5D /* Celebrity */,
 			);
 			path = 3SellersView;
@@ -231,8 +237,11 @@
 		1C37FB59265B5E2D0001ED5D /* Retail Seller */ = {
 			isa = PBXGroup;
 			children = (
-				1C37FB50265AE6190001ED5D /* RetailAccount.swift */,
-				1C37FB6D265CA3F60001ED5D /* CreateAccountRS.swift */,
+				1C37FB50265AE6190001ED5D /* FormButtons.swift */,
+				1C69DE2C26649EE300C166C1 /* SendRequestForm.swift */,
+				1C416533266727EC004E7624 /* PinCodeForm.swift */,
+				1C4165352667439C004E7624 /* BowssSellerForm.swift */,
+				1C69DE2E2665BBD300C166C1 /* AddProduct.swift */,
 				1C37FB76265CAF7E0001ED5D /* Editable Product Page */,
 			);
 			path = "Retail Seller";
@@ -243,7 +252,7 @@
 			children = (
 				1C37FB4C265AE5D20001ED5D /* OBselleraccount.swift */,
 				1C37FB71265CA4B60001ED5D /* CreateSellBusinesSB.swift */,
-				1C37FB5B265B5E970001ED5D /* SellBusiness.swift */,
+				1C37FB5B265B5E970001ED5D /* SellBusinessForm.swift */,
 				1C37FB5F265C3D4A0001ED5D /* SellBusinessDelay.swift */,
 				1C37FB75265CAF360001ED5D /* Editable Product Page */,
 			);
@@ -609,7 +618,6 @@
 				1CC32E7D26454E1B00C54A47 /* Bowss */,
 				1CC32E7C26454E1B00C54A47 /* X-CODE Assets */,
 				2E086EC90D4E9F0D44D04113 /* Pods */,
-				905A453805A9C3EF0A02C4A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -727,6 +735,7 @@
 			children = (
 				729E1233D06A0F2DEA1030F0 /* Pods-Bowss.debug.xcconfig */,
 				82206670041488B419099B13 /* Pods-Bowss.release.xcconfig */,
+				905A453805A9C3EF0A02C4A1 /* Frameworks */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -737,6 +746,7 @@
 				11EA52818E25978D7C765430 /* Pods_Bowss.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -852,7 +862,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C37FB51265AE6190001ED5D /* RetailAccount.swift in Sources */,
+				1C37FB51265AE6190001ED5D /* FormButtons.swift in Sources */,
 				1C37FB68265C9EA70001ED5D /* DailyBudgetRS.swift in Sources */,
 				1C64BBEE2658B60600ADA6CA /* MiniCardsBB.swift in Sources */,
 				1C64BBEC265896A900ADA6CA /* LargeViewB-B.swift in Sources */,
@@ -863,6 +873,7 @@
 				1C37FB7B265DE1A40001ED5D /* EditableProductPageC.swift in Sources */,
 				1C37FB62265C43A10001ED5D /* EditableProductPageOB.swift in Sources */,
 				1CC32E9126455A0300C54A47 /* HomeViewS.swift in Sources */,
+				1C69DE2F2665BBD300C166C1 /* AddProduct.swift in Sources */,
 				1C37FB64265C44840001ED5D /* EditableProductPageRS.swift in Sources */,
 				1C64BBBC2650624500ADA6CA /* ProductpageSlayout.swift in Sources */,
 				1C64BBBE2650647D00ADA6CA /* ProductPageImageS.swift in Sources */,
@@ -872,19 +883,21 @@
 				1CD8FE9A264D6D4A00D092D8 /* lazygridD.swift in Sources */,
 				1CC32EB72649BF0000C54A47 /* TabViewB.swift in Sources */,
 				1C37FB60265C3D4A0001ED5D /* SellBusinessDelay.swift in Sources */,
+				1C4165362667439C004E7624 /* BowssSellerForm.swift in Sources */,
 				1C37FB3B2659DDA70001ED5D /* HomeTabSeller.swift in Sources */,
 				1C37FB412659DDEB0001ED5D /* AccountTabSeller.swift in Sources */,
 				1CC32EB12649BE1700C54A47 /* HomeViewB.swift in Sources */,
 				1CC32E9A2647E79100C54A47 /* MiniCard.swift in Sources */,
 				1C37FB55265B15F90001ED5D /* NavigationBarSeller.swift in Sources */,
 				1C37FB4B265AD7B40001ED5D /* Note.swift in Sources */,
-				1C37FB6E265CA3F60001ED5D /* CreateAccountRS.swift in Sources */,
 				1CD8FEB0264D876100D092D8 /* ProfileS-DD.swift in Sources */,
+				1C416534266727EC004E7624 /* PinCodeForm.swift in Sources */,
 				1C64BBE326588C4000ADA6CA /* ProfilePostsB.swift in Sources */,
 				1C64BBB726502B1A00ADA6CA /* lazygrid2viewbug.swift in Sources */,
 				1C64BBB526502ADB00ADA6CA /* lazyGridDataB.swift in Sources */,
 				1C64BBB92650410600ADA6CA /* TopSectionProfileB.swift in Sources */,
 				1C64BBE726588F8300ADA6CA /* SwiftUIView.swift in Sources */,
+				1C69DE2D26649EE300C166C1 /* SendRequestForm.swift in Sources */,
 				1C37FB49265AC71D0001ED5D /* SellerSettings.swift in Sources */,
 				1C69DE2B266320B000C166C1 /* Firebase.swift in Sources */,
 				1C37FB4F265AE5EA0001ED5D /* CelebrityAccount.swift in Sources */,
@@ -900,7 +913,7 @@
 				1CC32E7F26454E1B00C54A47 /* BowssApp.swift in Sources */,
 				1C37FB74265CA54E0001ED5D /* DailyBrandBudget.swift in Sources */,
 				1CC32EB32649BE2700C54A47 /* SearchB.swift in Sources */,
-				1C37FB5C265B5E970001ED5D /* SellBusiness.swift in Sources */,
+				1C37FB5C265B5E970001ED5D /* SellBusinessForm.swift in Sources */,
 				1C37FB3D2659DDC10001ED5D /* SearchTabSeller.swift in Sources */,
 				1CC32EAB2648B0A700C54A47 /* Basket.swift in Sources */,
 				1C37FB4D265AE5D20001ED5D /* OBselleraccount.swift in Sources */,
